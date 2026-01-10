@@ -4,7 +4,7 @@ email: steve.do@hotmail.com
 url: https://github.com/SteveDo1
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 keywords: "your keywords, separated by commas"
-skills: "Physical Access & Data Specialist - Passionate about Cybersecurity"
+skills: "Cybersecurity & GRC Analyst - Passionate about Cybersecurity"
 meta_author: Do Steve
 
 # Google webmaster tools
@@ -19,10 +19,11 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 62b6cb 
+  primary: 5fa8d3
   primary-rgb: "24,288,156" #"128,179,255"
   secondary: 1b4965
   secondary-dark: 233140 #A2122F
+  about: bee9e8
 
 # Footer settings
 footer:
@@ -33,14 +34,8 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+  - title: linkedin
+    url: https://www.linkedin.com/in/stevedo1/
   - title: github
     url: https://github.com/SteveDo1
 

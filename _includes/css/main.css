@@ -37,7 +37,8 @@ h6 {
 }
 
 hr.star-light,
-hr.star-primary {
+hr.star-primary,
+hr.star-about {
     margin: 25px auto 30px;
     padding: 0;
     max-width: 250px;
@@ -48,7 +49,8 @@ hr.star-primary {
 }
 
 hr.star-light:after,
-hr.star-primary:after {
+hr.star-primary:after,
+hr.star-about:after {
     content: "\f005";
     display: inline-block;
     position: relative;
@@ -65,6 +67,15 @@ hr.star-light {
 hr.star-light:after {
     color: #fff;
     background-color: #{{ site.color.primary }};
+}
+
+hr.star-about {
+    border-color: #{{ site.color.secondary }};
+}
+
+hr.star-about:after {
+     color: #{{ site.color.secondary }};
+    background-color: #{{ site.color.about }};
 }
 
 hr.star-primary {
@@ -98,7 +109,7 @@ header img {
 
 header .intro-text .name {
     display: block;
-    text-transform: uppercase;
+    text-transform: uppercase;*/
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
@@ -181,8 +192,8 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
-    background: #{{ site.color.primary }};
+    color: #{{ site.color.secondary }};
+    background: #{{ site.color.about }};
 }
 
 @media(max-width:767px) {
@@ -194,6 +205,7 @@ section.success {
         padding-top: 75px;
     }
 }
+
 
 #portfolio .portfolio-item {
     right: 0;
