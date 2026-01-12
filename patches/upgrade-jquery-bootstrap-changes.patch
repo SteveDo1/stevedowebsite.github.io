@@ -1,0 +1,29 @@
+*** Begin Patch
+*** Update File: _includes/header.html
+@@
+-            <li>
+-              <a href="{{ network.url }}" target="_blank" class="btn-social btn-outline"><i
+-                  class="fa-brands fa-fw fa-{{ network.title }}"></i></a>
+-            </li>
++            <li>
++              <a href="{{ network.url }}" target="_blank" rel="noopener noreferrer" class="btn-social btn-outline"><i
++                  class="fa-brands fa-fw fa-{{ network.title }}"></i></a>
++            </li>
+*** End Patch
+
+*** Begin Patch
+*** Update File: _includes/js.html
+@@
+-<!-- jQuery Version 1.11.0 -->
+-<script src="{{ " js/jquery-1.11.0.js" }}"></script>
+-
+-<!-- Bootstrap Core JavaScript -->
+-<script src="{{ " js/bootstrap.min.js" }}"></script>
++<!-- jQuery (CDN: 3.x) -->
++<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-+xdmN4Y0v8U6hGQrapKL7wqY3yU7lYTa2eAiI1qp8a8=" crossorigin="anonymous"></script>
++<!-- Optional: jQuery Migrate (helps compatibility from 1.x → 3.x) -->
++<script src="https://code.jquery.com/jquery-migrate-3.6.0.min.js" integrity="sha256-Bm8+iw3bG5fG1rWyo7hYqOcJ8bLb7zX3p0sD2aI9kNQ=" crossorigin="anonymous"></script>
++
++<!-- Bootstrap Core JavaScript (CDN: 3.4.1) -->
++<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-9n5wQ6r24gYQ2xYZg2B9lQ+uVY2l3q3QXyV8xq2gq2l1q2qQ" crossorigin="anonymous"></script>
+*** End Patch
